@@ -12,7 +12,7 @@ helm repo add apache-airflow https://airflow.apache.org: This command adds the A
 
 helm list: This command lists Helm releases again, possibly to check if the Apache Airflow Helm repository has been successfully added.
 
-kubectl getall: There is a typo in this command; it should be kubectl get all. This command lists all Kubernetes resources in the current namespace.
+kubectl get all: This command lists all Kubernetes resources in the current namespace.
 
 kubectl describe pod service/airflow-postgresql: This command attempts to describe a Kubernetes pod named "airflow-postgresql" in the "service" namespace. The syntax should be corrected to kubectl describe pod airflow-postgresql.
 
